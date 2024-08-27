@@ -1,0 +1,45 @@
+https://github.com/GeekyAnts/sample-decentralised-kyc-ethereum
+
+https://techblog.geekyants.com/decentralized-kyc-on-blockchain-a-case-study
+
+
+
+https://github.com/nodejs/node-gyp#on-windows   OR
+
+
+install node v18
+install Ganache (for local blockchain)
+
+npm install -g truffle@5.5.2
+
+
+cd front-end
+npm install --force
+
+cd blockchain
+npm install
+------------------------------------------------------------------------------------------------------------------------
+
+Run project:-
+
+cd blockchain
+truffle compile
+truffle migrate --network development --reset
+
+
+https://stackoverflow.com/questions/70063600/cant-resolve-ipfs-car-blockstore-memory-when-importing-nft-storage
+Go to node_modules/nft.storage directory.
+Make sure you have ipfs-car/dist/esm/blockstore and ipfs-car/dist/esm/pack. If not, install ipfs-car with npm i ipfs-car. Copy ipfs-car/dist/esm to nft.storage/src.
+Inside nft.storage/src, update the ipfs-car import statements in the following files like so:
+Inside platform.web.js, update to this: import { MemoryBlockStore } from 'ipfs-car/dist/esm/blockstore/memory'
+
+Inside lib.js, update to this: import { pack } from 'ipfs-car/dist/esm/pack'
+
+Inside token.js, update to this: import { pack } from 'ipfs-car/dist/esm/pack'
+
+
+
+
+cd front-end
+npm run build (takes time to complete)
+npm start

@@ -1,0 +1,25 @@
+{
+    "git.ignoreLimitWarning": true,
+    "cSpell.words": [
+        "Aadhar",
+        "activatedeactivatebank",
+        "addbank",
+        "addcustomer",
+        "customerbanks",
+        "Datahash",
+        "getallbanks",
+        "getcustomerdetails",
+        "getsinglebank",
+        "handlefirst",
+        "ipfs",
+        "IPFSHTTP",
+        "Pressable",
+        "searchcustomers",
+        "transperant",
+        "updatebank",
+        "updatedatahash",
+        "updatekyccount",
+        "updatekycdoneby",
+        "updateprofile"
+    ]
+}
